@@ -277,7 +277,7 @@ function audio (){
 
 // 結果
 function result() {
-    if(score === 20){
+    if(score === 21){
         result_contents.innerText = '満点素晴らしい！'
     } else if (score >= 15){
         result_contents.innerText = 'あと少しで満点'
